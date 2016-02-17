@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="FlowChart:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/FlowChart_jar</output-path>
-    <root id="archive" name="FlowChart.jar">
-      <element id="module-output" name="FlowChart" />
-    </root>
-  </artifact>
-</component>
