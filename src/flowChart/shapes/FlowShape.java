@@ -1,7 +1,7 @@
 package flowChart.shapes;
 
 /**
- * Superclass for all shapes, extends Stackpane.
+ * Superclass for all shapes, extends stackpane.
  * Includes inputdialogs (for choosing color and labeltext) and drag'n'drop-function.
  */
 
