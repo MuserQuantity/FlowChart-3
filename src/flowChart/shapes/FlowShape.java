@@ -167,5 +167,4 @@ public abstract class FlowShape extends StackPane {
     class Delta {
         double x, y;
     }
-
 }

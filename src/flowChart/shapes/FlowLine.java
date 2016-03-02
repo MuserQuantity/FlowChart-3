@@ -2,6 +2,9 @@ package flowChart.shapes;
 
 /**
  * Class for creating a Line, extends Line.
+ * The constructor has two objects of FlowShape as imparameters.
+ * It binds the selected shapes to the line-ends, so when the
+ * shape is dragged, the line follows.
  */
 
 import javafx.scene.Cursor;

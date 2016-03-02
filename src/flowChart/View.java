@@ -28,7 +28,6 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 public class View  {
-
     private Stage window;
     private BorderPane borderPane;
     private AnchorPane workSpaceLayout;

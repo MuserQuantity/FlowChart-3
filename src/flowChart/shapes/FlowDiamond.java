@@ -19,6 +19,7 @@ public class FlowDiamond extends FlowShape {
         String label = getLabel();  //gets label from superclass:
         Text diamondText = new Text(label);
         diamondText.setTextAlignment(TextAlignment.CENTER);
+
         if (!label.equals("cancel")) {
             double diamondwidth = diamondText.getLayoutBounds().getWidth() + 17;
             if (diamondwidth < 35){

@@ -19,6 +19,7 @@ public class FlowRectangle extends FlowShape {
         String label = getLabel();  //gets label from superclass:
         Text rectText = new Text(label);
         rectText.setTextAlignment(TextAlignment.CENTER);
+
         if (!label.equals("cancel")) {
             double rectWidth = rectText.getLayoutBounds().getWidth() + 40;
             if (rectWidth < 60){

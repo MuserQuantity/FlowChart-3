@@ -19,6 +19,7 @@ public class FlowEllipse extends FlowShape {
         String label = getLabel();  //gets label from superclass:
         Text ellipseText = new Text(label);
         ellipseText.setTextAlignment(TextAlignment.CENTER);
+
         if (!label.equals("cancel")) {
             double ellipseWidth = ellipseText.getLayoutBounds().getWidth() + 7;
             if (ellipseWidth < 26){
@@ -31,6 +32,4 @@ public class FlowEllipse extends FlowShape {
             this.getChildren().addAll(ellipse, ellipseText);
         }
     }
-
-
 }

@@ -25,7 +25,6 @@ import java.io.IOException;
 
 public class Model {
 
-
     //takes a screenshot on the workspacelayout and saves it as a .png-file:
     public void screenshot(WritableImage snapshot){
         FileChooser fileChooser = new FileChooser();
@@ -78,5 +77,4 @@ public class Model {
 
         alert.showAndWait();
     }
-
 }
